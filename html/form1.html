@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- 表单标签 -->
+    <form>
+
+        <!-- 文本框 type属性的默认值也是text -->
+        姓名： <input type="text" placeholder="请输入你的姓名"> <br>
+        <!-- placeholder 占位符 -->
+        <br>
+        
+        <!-- 密码框 -->
+        密码： <input type="password" placeholder="请输入你的密码"> <br>
+        <br>
+
+        <!-- 单选框 -->
+        性别： <input type="radio" name="sex" checked> 男
+            <input type="radio" name="sex"> 女 <br>
+        <!-- 注意： name是必须属性，分组 -->
+        <!-- checked 默认选中 -->
+        <br>
+        
+
+        <!-- 多选框 --> <!-- Label标签 -->
+        爱好： <input type="checkbox" id="cqdm" checked> <label for="cqdm">敲代码</label>
+            <label><input type="checkbox"> 看美女</label>
+            <label><input type="checkbox"> 睡大觉</label> <br>
+        <br>
+
+        <!-- 文件选择 -->
+        选择单个文件： <input type="file"> <br>
+        选择多个文件： <input type="file" multiple> <br>
+        <br>
+
+        <!-- 按钮 -->
+        <input type="submit" value="提交">
+        <input type="reset" value="重置">
+        <input type="button" value="普通按钮"> <br>
+        <br>
+
+        <!-- 按钮 -->
+        <button type="submit">提交</button>
+        <button type="reset">重置</button>
+        <button type="button">普通按钮</button> <br>
+        <br>
+
+        <!-- 下拉菜单-->
+        所在城市： 
+        <select name="" id="">
+            <option value="">北京</option>
+            <option value="" selected>上海</option>
+            <option value="">广州</option>
+        </select>
+        <br>
+        <br>
+
+        <!-- 文本域-->
+        留言：
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+
+        <!-- 没有语义的布局标签 -->
+        <div>我是一个div</div>
+        <div>我是一个div</div>
+        <div>我是一个div</div>
+        <span>我是一个span</span>
+        <span>我是一个span</span>
+        <span>我是一个span</span>
+        <br>
+        <br>
+
+        <!-- 有语义的布局标签 -->
+        <header>头部</header>
+        <nav>导航</nav>
+        <aside>侧边栏</aside>
+        <section>区域</section>
+        <article>文章</article>
+        <footer>底部</footer>
+        <br>
+
+        <!-- HTML中的空格合并现象 -->
+        Hello,                            World! <br>
+
+        <!-- 字符实体 -->
+        Hello,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;World! <br>
+        p标签长这个样子：<p></p><br>
+        p标签长这个样子：&lt;p&gt;&lt;/p&gt;
+
+    </form>
+
+
+</body>
+</html>
